@@ -40,15 +40,25 @@ img {
   margin-top: 2rem;
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+/* Screen resolution landscape */
+@media only screen and (min-width: 768px) and (max-width: 1200px) and (orientation: landscape) {
   #camp {
-    max-width: 50rem;
+    max-width: 40rem;
   }
 }
 
+/* Screen resolution small */
 @media only screen and (max-width: 33.75rem) {
   #camp {
     max-width: 18.75rem;
+  }
+}
+
+/* Screen resolution extra small */
+@media only screen and (max-width: 25.75rem) {
+  video,
+  #camp {
+    max-width: 16rem;
   }
 }
 
