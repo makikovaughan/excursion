@@ -18,6 +18,10 @@ span {
   color: aquamarine;
 }
 
+video {
+  margin-top: 3rem;
+}
+
 /* h1 travel guid */
 .h2-travel {
   font-size: 2.625rem;
@@ -31,7 +35,13 @@ p,
   font-size: 1.3125rem;
 }
 
+/* img setup */
+img {
+  margin-top: 2rem;
+}
+
 /* Footer span */
 footer {
   text-align: right;
+  margin-top: 3rem;
 }
